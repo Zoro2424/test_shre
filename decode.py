@@ -1,6 +1,3 @@
-#====Python example====
-#<div style="overflow:auto;">
-#<syntaxhighlight lang="python">
 '''
 The following Python implementation of Shamir's Secret Sharing is
 released into the Public Domain under the terms of CC0 and OWFa:
@@ -140,6 +137,4 @@ def main():
 
 	if __name__ == '__main__':
    	 main()
-#</syntaxhighlight>
-#</div>
-
+	
