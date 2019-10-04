@@ -126,17 +126,17 @@ def main():
 	      (168427786, 1346012099245027255137846727095389802665539710218591031924196107275702342801810675138475726268268109034725954792888077009226006685063243040114310221915741361),
 	      (168427787, 3167103626579990164481551900631455406227649498339870931463659678762007414973185848385145925751739606156366598497723358368426602431521721329611646179289862914)]
 
-     print('secret:                                                     ',
-     secret)
-     print('shares:')
-      if shares:
+    print('secret:                                                     ',
+    secret)
+    print('shares:')
+     if shares:
    	for share in shares:
-          print('  ', share)
+         print('  ', share)
 
-     print('secret recovered from minimum subset of shares:             ',
-        recover_secret(shares[:10]))
-     print('secret recovered from a different minimum subset of shares: ',
-        recover_secret(shares[-3:]))
+    print('secret recovered from minimum subset of shares:             ',
+       recover_secret(shares[:10]))
+    print('secret recovered from a different minimum subset of shares: ',
+       recover_secret(shares[-3:]))
 
 if __name__ == '__main__':
     main()
